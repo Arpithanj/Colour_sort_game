@@ -1,36 +1,43 @@
- ColorSortingGame 🎮
-A fun and interactive color sorting game built using Python and OpenCV.
-
-This project simulates a simple game where users sort colored objects (like balls or shapes) into their correct places. It uses computer vision techniques and basic image processing with OpenCV to detect colors, track object movements, and provide a visually engaging gameplay experience.
+This project is a visually engaging puzzle game where the player must sort colored elements (like balls or blocks) into their respective containers. The game is built using Pygame, and it demonstrates logic-building, game design, and graphical user interface development in Python.
 
 🔧 Features:
-Color detection and tracking using OpenCV
+Interactive drag-and-drop color sorting
 
-Interactive sorting of colored objects
+Smooth and colorful animations
 
-Real-time visuals with OpenCV window
+Randomized level setup using Python’s random module
 
-Basic logic for win/lose or level completion (if implemented)
+Logical gameplay to challenge the user’s thinking
 
-Great for learning computer vision and image processing
+Built-in reset and win condition logic
+
+Uses deep copy logic for game state management
 
 🧠 Technologies Used:
 Language: Python
 
-Library: OpenCV (cv2)
+Libraries:
 
-Concepts: Color detection, contour finding, drawing shapes, real-time video processing
+pygame – for graphics and user interaction
+
+random – for generating random game states
+
+copy – for managing deep copies of game objects
 
 ▶️ How to Run:
 Clone the repository
 
-Make sure you have Python and OpenCV installed
+Make sure Python is installed
+
+Install Pygame if not already installed:
 
 bash
 Copy code
-pip install opencv-python
-Run the script:
+pip install pygame
+Run the game:
 
 bash
 Copy code
 python color_sorting_game.py
+💡 Game Objective:
+Sort all the colors into their respective containers so that each container holds only one color. The fewer moves you make, the better your performance!
